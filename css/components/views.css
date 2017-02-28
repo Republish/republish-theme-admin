@@ -1,0 +1,42 @@
+.views-exposed-form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.views-element-container label {
+    display: inline-block;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: 5px;
+}
+
+.views-element-container .form-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.views-element-container .form-item:first-of-type {
+    margin-left: 0;
+}
+
+.views-form #edit-header {
+    margin-bottom: 20px;
+}
+
+.views-form #edit-header .form-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.views-form table {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+

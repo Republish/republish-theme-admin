@@ -1,0 +1,33 @@
+global-styling:
+  css:
+    base:
+      css/clean-ui.css: {}
+    component:
+      css/components/button.css: {}
+      css/components/form.css: {}
+      css/components/messages.css: {}
+      css/components/views.css: {}
+  js:
+    js/dropdown.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - clean_libraries/ionicons
+
+select2:
+  css:
+    component:
+      https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css: {}
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js: { type: external }
+
+select-styling:
+  css:
+    component:
+      css/components/select2.css: {}
+  js:
+    js/select2.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - clean_ui/select2

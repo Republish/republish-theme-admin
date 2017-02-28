@@ -1,0 +1,19 @@
+name: Clean UI
+type: theme
+description: 'Clean, a theme for site editors.'
+version: VERSION
+core: 8.x
+base theme: false
+
+regions:
+  header: Header
+  breadcrumb: Breadcrumb
+  help: Help
+  tools: "Admin tools and tabs"
+  content: Content
+
+libraries:
+  - clean_ui/global-styling
+  - clean_ui/select-styling
+  - clean_libraries/work-sans-font
+

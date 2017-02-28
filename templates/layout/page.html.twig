@@ -1,0 +1,21 @@
+<div class="l-container">
+    <header role="banner">
+        {{ page.header }}
+    </header>
+
+    <div class="l-tools">
+        {{ page.tools }}
+    </div>
+    <div class="l-page">
+        {#{{ page.breadcrumb }}#}
+        {{ page.help }}
+
+        <main role="main">
+            <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+            <div class="l-content">
+                {{ page.content }}
+            </div>{# /.layout-content #}
+        </main>
+    </div>
+</div>{# /.l-container #}
